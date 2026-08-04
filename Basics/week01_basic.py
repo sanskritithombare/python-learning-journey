@@ -23,3 +23,11 @@ print(31*365)
 name = "sans" # Add/change your name here
 age = 31 # Add/change your age here
 print("Hi, my name is", name, "and I’m", age, "years old.")
+
+#-------
+
+name = 'mongot'
+species = 'alien'
+age = 512
+
+print (f"Hello I am {name}, the {age} year old {species}. ")

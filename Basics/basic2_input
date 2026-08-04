@@ -1,0 +1,28 @@
+#Input() function
+
+name = input("What is your name? ")
+print("Hello,", name)
+
+#Storing variable in a input - this is input as string if we dont use int
+age = input("How old are you? ")
+print("You are", age, "years old.")
+
+print(type(age))
+
+#Input as number - convert into int
+age = input("How old are you? ")
+future_age = int(age) + 5
+print("In 5 years, you’ll be", future_age)
+
+#Multipl inputs and print a fun sentence
+
+name = input("Name: ")
+fav_food = input("what food do you love the most ")
+hobby = input("Whats your hobby? ")
+
+print("Hi", name, "! Enjoy your", fav_food, "while you are ", hobby, "!")
+
+#Challenge: Birthday Calculator - assume current year is 2026
+birth_year = int(input('What is your birth year'))
+
+age = print('You are', 2026-birth_year ,'years old')
