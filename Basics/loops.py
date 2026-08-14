@@ -1,4 +1,7 @@
 #range and for loop
+from turtle import bye
+
+
 for i in range(5):
     print("Hello!")
 
@@ -30,3 +33,35 @@ while  a != "stop":
 for i in range(5,0,-1):
     print(i)
 print("Liftoff!") 
+
+
+x = range(3, 20, 2)
+for n in x:
+  print(n)
+
+#write a function to print even numbers till 15
+def print_even_numbers():
+    for i in range(2, 16, 2):
+        print(i)
+
+
+#Program to keep going until user types bye
+# if user types nothing, it will ask again for input. 
+# If user types bye, it will exit the loop. 
+# Otherwise, it will print what the user said.
+while True:
+    word = input("Say something: ")
+    if word == "bye":
+        break
+    if word == "":
+        continue
+    print("You said:", word)
+
+#Say something: hey
+#You said: hey
+#Say something: no
+#You said: no
+#Say something: 
+#Say something: stop it
+#You said: ok i need to say bye
+#Say something: bye
