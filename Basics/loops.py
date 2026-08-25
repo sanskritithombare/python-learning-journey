@@ -45,6 +45,8 @@ def print_even_numbers():
         print(i)
 
 
+
+
 #Program to keep going until user types bye
 # if user types nothing, it will ask again for input. 
 # If user types bye, it will exit the loop. 
@@ -65,3 +67,11 @@ while True:
 #Say something: stop it
 #You said: ok i need to say bye
 #Say something: bye
+
+
+for number in range(1, 11):
+    if number % 2 == 0:
+        continue
+    print(number)
+# From 1 to 10, print only odd numbers. If the number is even, 
+# skip it and continue to the next iteration.  
