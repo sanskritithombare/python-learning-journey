@@ -9,3 +9,10 @@ print(fruits[2])  # Third item
 fruits.append("orange")  # Add
 fruits.remove("banana")  # Remove
 print(fruits)
+
+#Print all items in a list using a for loop
+favourites = ["yoga", "netflix", "gardening"]
+
+for favourite in favourites:
+    print("I love", favourite)
+
